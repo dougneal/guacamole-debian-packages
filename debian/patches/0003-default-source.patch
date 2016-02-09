@@ -1,0 +1,11 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -54,7 +54,7 @@ AC_CHECK_HEADERS([fcntl.h stdlib.h strin
+ 
+ # Source characteristics
+ AC_DEFINE([_POSIX_C_SOURCE], [199309L], [Uses POSIX APIs])
+-AC_DEFINE([_BSD_SOURCE],     [],        [Uses BSD APIs])
++AC_DEFINE([_DEFAULT_SOURCE],     [],        [Uses BSD APIs])
+ 
+ # libdl
+ AC_CHECK_LIB([dl], [dlopen], [DL_LIBS=-ldl],
