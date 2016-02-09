@@ -1,3 +1,9 @@
+guacamole-server (0.9.9-1) UNRELEASED; urgency=medium
+
+  * Bump upstream version
+
+ -- Doug Neal <doug@neal.me.uk>  Tue, 09 Feb 2016 22:23:05 +0000
+
 guacamole-server (0.8.3-2) unstable; urgency=medium
 
   * QA upload.
