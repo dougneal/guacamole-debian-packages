@@ -1,0 +1,3 @@
+Derivative of the MPL-licensed Debian package metadata for Guacamole, available from:
+https://packages.debian.org/sid/guacd
+
